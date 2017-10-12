@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'nmax'
+
+file_text = $stdin.read
+count = ARGV[0].to_i
+
+Nmax.execute(file_text, count)
